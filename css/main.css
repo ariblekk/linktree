@@ -60,14 +60,19 @@ a {
 .about {
     font-size: 1rem;
     font-weight: 500;
-    margin-bottom: 2rem;
     color: white;
+    margin-bottom: 2rem;
   }
 .footer {
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 6rem;
     color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
   }
 .link span {
   width: 80%;
@@ -84,7 +89,7 @@ a {
 .link:nth-child(1) {
   background: linear-gradient(
       90deg,
-      rgba(241, 241, 241, 0.1) 30%,
+      rgba(241, 241, 241, 0.1) 20%,
       rgba(113, 113, 113, 0.3) 100%
     ),
     #EBC7E8;
@@ -93,19 +98,19 @@ a {
 .link:nth-child(2) {
   background: linear-gradient(
       90deg,
-      rgba(241, 241, 241, 0.1) 30%,
+      rgba(241, 241, 241, 0.1) 20%,
       rgba(113, 113, 113, 0.3) 100%
     ),
-    #BFACE0;
+    #EBC7E8;
     color: white;
 }
 .link:nth-child(3) {
   background: linear-gradient(
       90deg,
-      rgba(241, 241, 241, 0.1) 30%,
+      rgba(241, 241, 241, 0.1) 20%,
       rgba(113, 113, 113, 0.3) 100%
     ),
-    #A084CA;
+    #EBC7E8;
     color: white;
 }
 .link:hover {
